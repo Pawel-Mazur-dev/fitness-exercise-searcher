@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fitness Exercise Searcher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Exercise Searcher</h1>
+    <p>Select muscle group and equipment</p>
+</header>
+
+<section class="controls">
+    <select id="muscleSelect">
+        <option value="">Select muscle group</option>
+        <option value="chest">Chest</option>
+        <option value="back">Back</option>
+        <option value="shoulders">Shoulders</option>
+        <option value="biceps">Biceps</option>
+        <option value="triceps">Triceps</option>
+       
+    </select>
+
+    <select id="equipmentSelect">
+        <option value="">Select equipment</option>
+        <option value="dumbbells">Dumbbells</option>
+        <option value="barbell">Barbell</option>
+        <option value="bodyweight">Bodyweight</option>
+        <option value="pullup">Pull-Up Bar</option>
+    </select>
+</section>
+
+<section id="exerciseList"></section>
+
+<section id="exerciseDetails" class="hidden">
+    <h2 id="exerciseName"></h2>
+    <p id="exerciseDescription"></p>
+    <img id="exerciseImage" class="image-placeholder" src="" alt="Exercise Image">
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
