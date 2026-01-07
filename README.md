@@ -35,7 +35,7 @@ Each exercise includes a short description and space for an image.
 
 ## 🌐 Live Demo
 
-👉 **[View the live website](https://pawel-mazur-dev.github.io/fitness-exercise-searcher/)**  
+👉 **[View the live website](https://pawel-mazur-dev.github.io/Fitness-exercise-searcher/)**  
 *(GitHub Pages)*
 
 ---
